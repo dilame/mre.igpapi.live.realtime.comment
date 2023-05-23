@@ -1,0 +1,21 @@
+{
+  "name": "mre.igpapi.live.realtime.comment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "ts-node ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@igpapi/android": "^3.92.1",
+    "@igpapi/core": "^3.92.1",
+    "@igpapi/realtime": "^3.92.1",
+    "dotenv": "^16.0.3",
+    "rxjs": "^7.8.1",
+    "ts-node": "^10.9.1",
+    "typedi": "^0.10.0",
+    "typescript": "^5.0.4"
+  }
+}
